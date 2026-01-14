@@ -1,0 +1,77 @@
+## Build ##
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## Visual Studio ##
+.vs/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+## Rider ##
+.idea/
+
+## NuGet ##
+*.nupkg
+*.snupkg
+packages/
+
+## Configurações locais ##
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+## Publicação ##
+publish/
+*.pubxml
+*.pubxml.user
+
+## Cache ##
+*.cache
+*.tmp
+*.cachefile
+
+## Sistema operacional ##
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+## Logs e Dump ##
+*.pid
+*.seed
+*.stackdump
+*.dmp
+
+## Certificados ##
+*.pfx
+*.key
+
+## Ferramentas ##
+# Git Extensions, etc
+*.orig
+
+## Testes ##
+TestResults/
+*.trx
+coverage/
+.coverage
+.coveragexml
+
+## Entity Framework ##
+Migrations/
+*.sqlite
+*.db
+
+## Docker ##
+.dockerignore
+docker-compose.override.yml

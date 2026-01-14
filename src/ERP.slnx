@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/App/">
+    <Project Path="ERP.Api/ERP.Api.csproj" />
+  </Folder>
+  <Folder Name="/BuildingBlocks/" />
+</Solution>
