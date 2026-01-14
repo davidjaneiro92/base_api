@@ -2,5 +2,15 @@
   <Folder Name="/App/">
     <Project Path="ERP.Api/ERP.Api.csproj" />
   </Folder>
-  <Folder Name="/BuildingBlocks/" />
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="ERP.BuildingBlocks.API/ERP.BuildingBlocks.API.csproj" Id="9f25fe39-1316-4752-a5c1-cadda57276e6" />
+    <Project Path="ERP.BuildingBlocks.Application/ERP.BuildingBlocks.Application.csproj" Id="6c9975c7-2b7a-4f54-84f8-8b4904fcdf3d" />
+    <Project Path="ERP.BuildingBlocks.Infrastructure/ERP.BuildingBlocks.Infrastructure.csproj" Id="37fb54a9-e9fc-4fe7-9ffe-1ed93a03a990" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Modules01/">
+    <Project Path="Modules01.API/Modules01.API.csproj" Id="bb5805e3-07d4-4529-85d0-acebbdde8972" />
+    <Project Path="Modules01.Application/Modules01.Application.csproj" Id="3e35933b-4f21-42c4-be02-5ea559655dda" />
+    <Project Path="Modules01.Infrastructure/Modules01.Infrastructure.csproj" Id="d25fd281-3f4b-49ee-ae21-531b5d7d401e" />
+  </Folder>
 </Solution>
